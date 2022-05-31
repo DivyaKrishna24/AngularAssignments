@@ -1,0 +1,11 @@
+<label> <h6>Select the number of seats to book</h6></label>
+    <button id="mybutton" value = "count" (click)="incCount()" 
+    class="btn btn-default form-control increasebtn"  
+    style="width: 60px; height: 40px; background-color: palevioletred;" >
+    <b>ADD</b> 
+</button>
+    
+<button id="submitForm" (click)="clickMethod('name')" style= "width: 70px; height: 40px ; background-color:blue"><b>Submit</b></button>
+<div> Count :  {{ getCount() }}
+</div>
+
